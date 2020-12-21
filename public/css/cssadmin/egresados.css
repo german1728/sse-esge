@@ -1,0 +1,18 @@
+div.search {
+	margin-top: 0px;
+}
+
+div.search input {
+	height: 28px;
+	padding: 0 0 0 32px;
+	background-image: url("../../assets/images/search_gray.png");
+	background-repeat: no-repeat;
+	border: 1 !important;
+	border: 1px solid #ACABAB;
+	background-size: 20px 20px;
+	background-position: 4px 6px;
+}
+
+div.search input:hover {
+	border: solid 1px #BE3228;
+}

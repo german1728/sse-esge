@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24pt;
+  color: #6B6B6B;
+  padding-top: 15PX;
+}
+
+html {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  min-width: 1024px;
+  font-family: 'Roboto', sans-serif;
+}
+
+header {
+  height: 136px;
+  background-color: white;
+  border-bottom: solid 1px #ccc;
+  box-shadow: 0 1px 3px #888888;
+}
+
+#header {
+  display: block;
+  /*margin: 0 auto;*/
+  min-width: 960px;
+  height: 136px;
+}
+
+#barrasuperior {
+  position: absolute;
+  width: 100%;
+  display: block;
+  height: 32px;
+  background-color: #5E352A;
+  box-shadow: 0 1px 3px #888888;
+}
+
+/*----------------ICONOS SUPERIOR-------------*/
+
+#nombre_usuario {
+  display: inline-block;
+  position: relative;
+  /*float:left;*/
+  left: 32px;
+  top: 5px;
+  font-weight: bold;
+}
+
+#nombre_usuario p {
+  display: block;
+  position: relative;
+  float: right;
+  margin-left: 10px;
+  color: white;
+  font-family: helvetica;
+  font-size: 12px;
+  top: 5px;
+}
+
+.home {
+  width: 19px;
+  height: 16px;
+  margin: 0 10px;
+  display: block;
+  float: right;
+}
+
+.user {
+  width: 19px;
+  height: 16px;
+  margin: 0 10px;
+  display: block;
+  float: right;
+}
+
+.configuration {
+  width: 19px;
+  height: 16px;
+  margin-left: 10px;
+  display: block;
+  float: right;
+}
+
+.block {
+  position: absolute;
+  width: 1024px;
+  min-height: 200px;
+  margin: 36px auto 40px;
+  background: rgba(255, 255, 255, 0.9);
+  display: block;
+  position: relative;
+  text-align: center;
+  border: solid 1px #ccc;
+  box-shadow: 0 0 3px #888888;
+  -moz-box-shadow: 0 0 3px #888888;
+  -webkit-box-shadow: 0 0 3px #888888;
+}
+
+.headercontainer {
+  width: 1024px;
+  height: 80px;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+}
+
+#logo_see_contenido {
+  width: 64px;
+  height: 65px;
+  position: relative;
+  top: 12px;
+  display: block;
+  float: left;
+}
+
+#logo_utm_contenido {
+  width: 64px;
+  height: 64px;
+  position: relative;
+  top: 12px;
+  display: block;
+  float: right;
+}
+
+#titulo_contenido {
+  margin: 0 auto;
+  width: 100%;
+  min-width: 1024px;
+  position: absolute;
+  margin-top: 24px;
+  color: #5E352A;
+  font: 30px Helvetica;
+  text-align: center;
+}
+
+button, .button {
+  display: inline-block;
+  /*margin: 0 10px 0 0;*/
+  padding: 5px 25px;
+  font-size: 14px;
+  font-family: "Roboto", serif;
+  line-height: 1.8;
+  appearance: none;
+  box-shadow: none;
+  border-radius: 0;
+  width: 160px;
+  height: 32px;
+}
+
+button:hover {
+  outline: none
+}
+
+.flat {
+  background-color: #BE3228;
+  margin: auto;
+  color: #FFF;
+  text-decoration: none;
+  border: none;
+}
+
+.flat:hover {
+  background-color: #5E352A;
+}
+
+.flat-secundario {
+  background-color: #6B6B6B;
+  color: #FFF;
+  border: none;
+}
+
+#iconos {
+  display: block;
+  position: relative;
+  float: right;
+  right: 32px;
+}
+
+/* NavBar */
+
+.menucontainer {
+  width: 1024px;
+  height: 60px;
+  margin: 0 auto;
+  background-color: #5E352A;
+  display: block;
+  position: relative;
+  text-align: center;
+}
+
+ul#menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+ul#menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.item {
+  position: relative;
+  left: 72px;
+  font-family: helvetica;
+  font-size: 13px;
+  width: 120px;
+}
+
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -32px;
+  padding-bottom: 0px !important;
+}
+
+footer {
+  height: 32px;
+  background-color: #6b6b6b;
+}
+
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+
+.search {
+  margin: 16px 0;
+  float: right;
+  display: block;
+  position: relative;
+}
